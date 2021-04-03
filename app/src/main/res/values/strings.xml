@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ImplicitIntentDemo</string>
+    <string name="intent_demo">Intent Demo</string>
+    <string name="search_demo">Search Demo</string>
+    <string name="dial_demo">Dial Demo</string>
+    <string name="send_demo">Send Demo</string>
+    <string name="waze_demo">Waze Demo</string>
+    <string name="map_demo">StreetView Demo</string>
+
+</resources>
