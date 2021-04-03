@@ -14,6 +14,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        val b = intent.extras
+        if( b != null && b.containsKey(Intent.EXTRA_STREAM)){
+            val uri = b[Intent.EXTRA_STREAM] as Uri
+            binding.ivData.setImageURI(uri)
+        }
     }
 
     fun intentSearch(v: View) {
